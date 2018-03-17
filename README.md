@@ -21,6 +21,8 @@ Will a pitcher pitch the Konami Code?
 
 Looked at 1.5M pitches from 2017 and 2016 regular season for the pattern `UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT` based on pitch zones.
 
+![alt text](https://github.com/dthyresson/konami-code-baseball/blob/master/source/assets/images/pitch_zones.png "Pitch Zone Map")
+
 ```
 , case
   when b.pitch_zone in ('10', '1', '2', '3') then 'U'
@@ -31,7 +33,6 @@ Looked at 1.5M pitches from 2017 and 2016 regular season for the pattern `UP UP 
   ''
   end as pitch_kode
 ```
-
 
 For simplicity, we ignored the A and B and Start button portion of the code.
 
@@ -45,3 +46,7 @@ It happens only 8 times:
 * pitches-mlb-2017-hou-tex-2017-06-2-1905-mlb-dillon-gee.json
 * pitches-mlb-2017-laa-oak-2017-09-6-1235-mlb-sean-manaea.json
 * pitches-mlb-2017-sea-min-2017-06-12-1910-mlb-tony-zych.json
+
+Currently show:
+
+* pitches-mlb-2017-cle-min-2017-08-17-1210-mlb-kyle-gibson.json

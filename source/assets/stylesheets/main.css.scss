@@ -42,7 +42,7 @@ svg#gamepad {
 
 $off: 0;
 $on: 1;
-$touch: 0.75;
+$touch: 0.25;
 
 @keyframes u-button-presses {
 0% { opacity: $off };
