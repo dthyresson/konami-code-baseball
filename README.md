@@ -1,75 +1,33 @@
-# Middleman Template
+# Baseball Konami Code
 
-The base Middleman application used at [thoughtbot], ready to deploy
-to [Netlify].
+:baseball: :video_game: :arrow_up: :arrow_up: :arrow_left: :arrow_right: :arrow_left: :arrow_right: :arrow_down: :arrow_down:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thoughtbot/middleman-template)
+Will a pitcher pitch the Konami Code?
 
-[thoughtbot]: https://thoughtbot.com/
-[Netlify]: https://www.netlify.com/
+A project for Baseball Hackday 2018 in Boston http://www.baseballhackday.com/boston/.
 
-## Configuration
+## Konami Code
 
-This template comes with the following features and tools:
+The Konami Code (コナミコマンド Konami Komando?, lit. "Konami Command") is a special combination of buttons that appears in several Konami games, including the Contra series. Since it was first revealed, the code has become part of popular culture in general, even appearing in many non-Konami games and diverse media, like clothing, advertisements and non-gaming related software.
 
-- [middleman-aria_current]: An extension for indicating a current (active) link
-  using `aria-current`.
-- [middleman-autoprefixer]: Automatically vendor-prefix stylesheets.
-- [middleman-livereload]: Automatically refresh the browser as soon as you save
-  a file.
-- [middleman-minify-html]: Minifies whitespace around HTML when the site is
-  built.
-- [Sass]: CSS pre-processor.
-- [Bourbon]: Sass tool set.
-- [Neat]: Sass grid.
-- [Bitters]: Scaffold styles, variables and structure.
-- [normalize.css]: Modern CSS "reset"
-- [Redcarpet]: Markdown processing.
-- [An SVG view helper][svg]: Output inline SVG's in your views,
-  e.g. `<%= svg("logo") %>`.
-- [CircleCI]: Continuous integration.
-- [Hound]: Comments on style violations in GitHub pull requests.
-- [Segment]: Analytics API.
+The code was first used in the 1986 release of Gradius for the Nintendo Entertainment System but was popularized among North American players in the NES version of Contra, for which it was also dubbed both the "Contra Code" and "30 Lives Code", because of its nearly necessary use in the game.
 
-[middleman-aria_current]: https://github.com/thoughtbot/middleman-aria_current
-[middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
-[middleman-livereload]: https://github.com/middleman/middleman-livereload
-[middleman-minify-html]: https://github.com/middleman/middleman-minify-html
-[Sass]: https://github.com/sass/sass
-[Bourbon]: https://github.com/thoughtbot/bourbon
-[Neat]: https://github.com/thoughtbot/neat
-[Bitters]: https://github.com/thoughtbot/bitters
-[normalize.css]: https://github.com/necolas/normalize.css/
-[Redcarpet]: https://github.com/vmg/redcarpet
-[svg]: https://github.com/thoughtbot/middleman-template/blob/master/helpers/application_helpers.rb#L18-L25
-[CircleCI]: https://circleci.com/
-[Hound]: https://houndci.com/repos
-[Segment]: https://segment.com/
+The Konami Code was created by Kazuhisa Hashimoto, who was developing the home port of the 1985 arcade game Gradius, an horizontal scrolling shooter released on the NES in 1986. Finding the game too difficult to play through during testing, he created a cheat code to give the player a full set of power-ups (normally attained gradually throughout the game). The code was still present in the released version after Hashimoto forgot to remove it. Players discovered and shared the code. The Konami Code was thus included in the series' other sequels and spin-offs.
+The code is usually entered during the title screen before the game demo begins, and the player must press the following sequence of buttons on the game controller to enable the cheat:
 
-## Contributing
+## UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT A B
 
-See the [contributing document].
-Thank you, [contributors]!
+Will a pitcher pitch the Konami Code?
 
-[contributing document]: CONTRIBUTING.md
-[contributors]: https://github.com/thoughtbot/middleman-aria_current/graphs/contributors
+Looked at 1.5M pitches from 2017 and 2016 regular season for the pattern `UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT` based on pitch zones.
 
-## License
+It happens only 8 times:
 
-Copyright © 2017 Tyson Gach and thoughtbot, inc. This is free software, and may
-be redistributed under the terms specified in the [LICENSE] file.
-
-[license]: LICENSE.md
-
-## About
-
-![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
-
-This project is maintained and funded by thoughtbot, inc. The names and logos
-for thoughtbot are trademarks of thoughtbot, inc.
-
-We love open source software! See [our other projects][community] or
-[hire us][hire] to help build your product.
-
-[community]: https://thoughtbot.com/community?utm_source=github
-[hire]: https://thoughtbot.com/hire-us?utm_source=github
+* pitches-mlb-2016-bal-sea-2016-06-30-1910-mlb-joaquin-benoit.json
+* pitches-mlb-2016-bos-nyy-2016-09-29-1905-mlb-henry-owens.json
+* pitches-mlb-2016-mia-phi-2016-07-18-1905-mlb-fernando-rodney.json
+* pitches-mlb-2016-nym-sd-2016-05-6-1940-mlb-ryan-buchter.json
+* pitches-mlb-2017-cle-min-2017-08-17-1210-mlb-kyle-gibson.json
+* pitches-mlb-2017-hou-tex-2017-06-2-1905-mlb-dillon-gee.json
+* pitches-mlb-2017-laa-oak-2017-09-6-1235-mlb-sean-manaea.json
+* pitches-mlb-2017-sea-min-2017-06-12-1910-mlb-tony-zych.json
