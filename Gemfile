@@ -1,14 +1,17 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-ruby "2.4.3"
+ruby '2.4.3'
 
-gem "bourbon", "~> 5.0"
-gem "builder", "~> 3.2"
-gem "middleman", "~> 4.2"
-gem "middleman-aria_current", "~> 0.1"
-gem "middleman-autoprefixer", "~> 2.9"
-gem "middleman-livereload", "~> 3.4"
-gem "middleman-minify-html", "~> 3.4"
-gem "neat", "~> 2.1"
-gem "redcarpet", "~> 3.4"
-gem "sass", "~> 3.4"
+gem 'awesome_print', '~> 1.8'
+gem 'bourbon', '~> 5.0'
+gem 'builder', '~> 3.2'
+gem 'middleman', '~> 4.2'
+gem 'middleman-aria_current', '~> 0.1'
+gem 'middleman-autoprefixer', '~> 2.9'
+gem 'middleman-livereload', '~> 3.4'
+gem 'middleman-minify-html', '~> 3.4'
+gem 'neat', '~> 2.1'
+gem 'oj', '~> 3.5'
+gem 'rake', '~> 12.3'
+gem 'redcarpet', '~> 3.4'
+gem 'sass', '~> 3.4'
