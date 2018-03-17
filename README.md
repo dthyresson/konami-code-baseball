@@ -21,6 +21,20 @@ Will a pitcher pitch the Konami Code?
 
 Looked at 1.5M pitches from 2017 and 2016 regular season for the pattern `UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT` based on pitch zones.
 
+```
+, case
+  when b.pitch_zone in ('10', '1', '2', '3') then 'U'
+  when b.pitch_zone in ('12', '7', '8', '9') then 'D'
+  when b.pitch_zone in ('13', '4') then 'L'
+  when b.pitch_zone in ('11', '6') then 'R'
+  else
+  ''
+  end as pitch_kode
+```
+
+
+For simplicity, we ignored the A and B and Start button portion of the code.
+
 It happens only 8 times:
 
 * pitches-mlb-2016-bal-sea-2016-06-30-1910-mlb-joaquin-benoit.json
