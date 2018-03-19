@@ -5,6 +5,11 @@
 
 @import "base/base";
 
+
+body {
+  background-color: $base-background-color;
+}
+
 main {
   @include grid-container;
   padding: 2em;
