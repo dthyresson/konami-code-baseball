@@ -23,7 +23,7 @@ task :default do
 
       f.puts "@import 'presses';"
       f.puts "@import 'gamepad';"
-      f.puts "svg#gamepad { .pad-button { animation-duration: #{pitches.count / 2}s } }";
+      f.puts "svg#gamepad { .pad-button { animation-duration: #{pitches.count / 2}s; animation-iteration-count:infinite; } }";
 
       ['U', 'D', 'R', 'L', 'A', 'B'].each do |button|
         f << write_button_animation(pitches: pitches,

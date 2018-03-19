@@ -8,7 +8,7 @@
     <ol class="pitches">
       <% current_page.data.pitches.each do |p| %>
         <li class="pitch <%= current_page.data.konami_code_pitch_counts.include?(p.pitch_count.to_i - 1) ? 'konami-code' : '' %>">
-          <%= p.pitch_count %>
+          <%= p.pitch_count.rjust(3, '0') %>
           <%= p.pitch_kode == '' ? '&nbsp;' : p.pitch_kode %>
           <%= p.pitcher_last_name %>
           <%= p.hitter_last_name %>
