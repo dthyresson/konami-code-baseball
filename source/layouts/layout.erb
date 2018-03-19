@@ -10,9 +10,10 @@
   </head>
   <body>
     <main role="main">
-      <h1>Baseball Konami Code</h1>
+      <h1><%= link_to 'Baseball Konami Code', '/' %></h1>
       <%= yield %>
     </main>
+    <%= partial "partials/footer" %>
     <%= partial "partials/analytics" %>
   </body>
 </html>

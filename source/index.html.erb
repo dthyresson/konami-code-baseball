@@ -1,6 +1,10 @@
-<h2>Pick a game</h2>
+<%= partial 'partials/about' %>
+
+<h2>Pick a game:</h2>
+
 <ul>
 <% data.pitches.each do |entry, p|  %>
   <li><%= link_to entry, "pitches/#{entry.gsub('-', '_')}" %></li>
 <% end %>
 </ul>
+
