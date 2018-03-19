@@ -1,0 +1,32 @@
+svg#gamepad {
+  height: 400px;
+  width: 900px;
+
+  .pad-button {
+    opacity: 0;
+  }
+
+  #left {
+    animation-name: l-button-presses;
+  }
+
+  #right {
+    animation-name: r-button-presses;
+  }
+
+  #up {
+    animation-name: u-button-presses;
+  }
+
+  #down {
+    animation-name: d-button-presses;
+  }
+
+  #a {
+    animation-name: a-button-presses;
+  }
+
+  #b {
+    animation-name: b-button-presses;
+  }
+}

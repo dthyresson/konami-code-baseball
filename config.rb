@@ -33,3 +33,5 @@ configure :production do
   activate :minify_html
   activate :minify_javascript
 end
+
+page "/pitches/*", layout: "pitches"
