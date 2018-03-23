@@ -18,18 +18,20 @@ $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
-$picton-blue: #4aabfc;
+$grassy: #0ba360;
+$light-grass: #3cba92;
+$bright-grass: #0fd850;
 
 // Font Colors
 $base-font-color: #fff;
-$action-color: $blue;
+$action-color: $bright-grass;
 
 // Border
 $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: $picton-blue;
+$base-background-color: $grassy;
 $secondary-background-color: tint($base-border-color, 75%);
 
 // Focus

@@ -5,9 +5,11 @@
 
 @import "base/base";
 
+@import "scanlines";
 
 body {
   background-color: $base-background-color;
+  background-image: linear-gradient(to top, $base-background-color 0%, $light-grass 100%);
 }
 
 main {
@@ -29,7 +31,7 @@ article {
     padding-left: 1em;
 
     li.konami-code {
-      background-color: $light-gray;
+      background-color: $bright-grass;
     }
   }
 }
@@ -38,4 +40,8 @@ section.about {
   @include grid-container;
   @include grid-column(12);
   margin-top: 1em;
+}
+
+footer {
+  @include grid-container;
 }
